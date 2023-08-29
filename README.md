@@ -1,11 +1,11 @@
 # Random Password Generator
 
-"Random Password Generator" is a free tool to generate a random password.
+"Random Password Generator" 是免費的密碼產生器
 
 ## Features
 
-- Generate a random password
-- Several options for password constraint
+- 生成出隨機的密碼
+- 可自由選取需要的密碼要素
 
 ## Installation
 
@@ -37,7 +37,7 @@ In your browser, open http://localhost:3000 to see the website.
 
 ## Screenshots
 
-![image]()
+![image](https://github.com/shccgxqp/Random-Password-Generator/blob/main/001.png)
 
 ## 安裝套件
 
