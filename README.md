@@ -18,7 +18,7 @@ git clone
 2. Move to the RandomPasswordGenerator directory
 
 ```
-cd RandomPasswordGenerator
+cd Random-Password-Generator
 ```
 
 3. Restore the dependencies
