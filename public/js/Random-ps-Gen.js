@@ -1,13 +1,5 @@
-const randomPassword = {
-  length: 0,
-  lower: "",
-  upper: "",
-  number: "",
-  symbols: "",
-  exchart: "",
-  password: "",
-
-  updataitem(res) {
+class randomPassword {
+  constructor(res) {
     this.length = res["pwlength"];
     this.lower = res["pwlower"] === "on" ? "checked" : "";
     this.upper = res["pwupper"] === "on" ? "checked" : "";
@@ -16,7 +8,7 @@ const randomPassword = {
     this.exchart = res["pwexchart"];
     this.password = "";
     this.getpasword();
-  },
+  }
 
   getpasword() {
     const lowerCase = "abcdefghijklmnopqrstuvwxyz";
@@ -59,7 +51,7 @@ const randomPassword = {
     } else {
       this.password = "You must select at least one character set";
     }
-  },
-};
+  }
+}
 
 module.exports = randomPassword;

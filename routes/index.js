@@ -7,8 +7,7 @@ routes.get("/", (req, res) => {
 });
 
 routes.post("/", (req, res) => {
-  const password = randompass;
-  password.updataitem(req.body);
+  const password = new randompass(req.body);
   res.render("index", { pw: password });
 });
 
